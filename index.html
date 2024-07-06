@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="cart-item">
+        <img src="./téléchargement__3_-removebg-preview.png" alt="Item Image">
+        <div class="item-details">
+            <h4>IPadPro</h4>
+            <p class="price">$499</p>
+            <div class="quantity-control">
+                <button class="decrement">-</button>
+                <span class="quantity">1</span>
+                <button class="increment">+</button>
+            </div>
+        </div>
+        <button class="delete-item">Delete</button>
+        <button class="like-item">&#x2764;</button>
+    </div>
+    <div class="total-price">
+        Total: $<span id="total">499</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
